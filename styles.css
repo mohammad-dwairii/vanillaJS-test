@@ -23,11 +23,13 @@
   background-color: #ffffff;
   padding: 20px;
   border: 1px solid #888;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   animation-name: animatetop;
-  animation-duration: 0.5s
+  animation-duration: 0.5s;
+  text-align: center;
 }
 
 @keyframes animatetop {
@@ -35,10 +37,45 @@
   to {top: 50%; opacity: 1}
 }
 
-.btnsRow {
+.btns-row {
   text-align: center;
 }
 
 .result {
   font-size: 14pt;
+}
+
+.btn {
+  border: 0;
+  border-radius: 4px;
+  width: 150px;
+  height: 40px;
+  font-weight: 900;
+}
+
+.btn-primary {
+  background: #9be2ff;
+  color: #111;
+}
+
+.btn-primary:active {
+  background: #95b6c4;
+}
+
+.btn-success {
+  background: #167e45;
+  color: #ffffff;
+}
+
+.btn-success:active {
+  background: #577866;
+}
+
+.btn-danger {
+  background: #db6161;
+  color: #ffffff;
+}
+
+.btn-danger:active {
+  background: #f05454;
 }
