@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  
+  <title>Test</title>
+  
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+  
+</head>
+<body>
+<div class="container">
+  <button id="clickBtn" message="Are you sure you want to continue ?">Click Me</button>
+  <p class="result" id="resultDiv"></p>
+</div>
+
+<div id="confirmationModal" class="modal">
+  <div class="modal-content">
+    <p id="confirmationTitle"></p>
+    <div class="btnsRow">
+      <button id='yesBtn' message='You just clicked "Yes" !' onclick="onButtonClick(this)">Yes</button>
+      <button id='cancelBtn' message='You just clicked "Cancel" !' onclick="onButtonClick(this)">Cancel</button>
+    </div>
+  </div>
+</div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
+  
